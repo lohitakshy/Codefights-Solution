@@ -1,0 +1,6 @@
+def maximalEven(inputArray):
+    new = []
+    for i in inputArray:
+        if i%2==0:
+            new.append(i)
+    return max(new)
