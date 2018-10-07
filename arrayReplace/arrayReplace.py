@@ -1,0 +1,6 @@
+def arrayReplace(inputArray, elemToReplace, substitutionElem):
+    for i in range(len(inputArray)):
+        if inputArray[i] == elemToReplace:
+            print(inputArray[i],elemToReplace,substitutionElem,inputArray)
+            inputArray[i] = substitutionElem
+    return inputArray
